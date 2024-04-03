@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"module": "ESNext",
+		"target": "ESNext",
+		"allowJs": true,
+		"noImplicitAny": true,
+		"strict": true,
+		"strictNullChecks": true,
+		"noImplicitReturns": true,
+		"moduleResolution": "node",
+		"importHelpers": true,
+		"isolatedModules": true,
+		"lib": ["DOM", "ESNext"],
+		"allowSyntheticDefaultImports": true
+	},
+	"include": ["src/**/*.ts", "tests/**/*.ts"]
+}
